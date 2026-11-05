@@ -1,0 +1,33 @@
+ZILFERCUT LOGO VA THEME PAPKALARI — QISQA YO‘RIQNOMA
+=====================================================
+
+1) LOGONI O‘ZINGIZ ALMASHTIRISH
+- Android Studio’da loyiha papkasini oching.
+- assets/logo/ ichidagi zilfercut-logo-original.png — siz yuborgan asl logo nusxasi.
+- Yangi logoni ham shu papkaga qo‘ying. Masalan: my-logo.png.
+- Hozirgi starter ekranda logo hali dastur oynasiga ulanmagan; keyingi UI bosqichida
+  logo shu fayldan ko‘rsatiladigan qilib ulanadi.
+- Logo almashtirish uchun keyin koddagi logo fayl nomini my-logo.png ga o‘zgartirish
+  yoki yangi faylni zilfercut-logo-original.png nomi bilan almashtirish kifoya.
+- Tavsiya: shaffof fonli PNG, kvadratga yaqin o‘lcham, tiniq sifat.
+
+2) THEME PAPKASI
+THEME/ ichida quyidagi papkalar tayyor:
+- stickers/     — sticker rasmlari
+- backgrounds/  — video/rasm fonlari
+- filters/      — filter preview rasmlari/presetlar
+- effects/      — effekt preview rasmlari
+- overlays/     — ramka, tekstura va ustki qatlamlar
+
+Siz so‘raganidek, theme assetlari uchun joy tayyorlangan. Lekin bu ZIP ichida
+tayyor stickerlar, tayyor fonlar yoki effekt rasmlari to‘plami yo‘q — papkalar hozircha
+bo‘sh. O‘zingiz rasmlarni tegishli papkaga tashlashingiz mumkin.
+
+3) 9:16 RASM TAVSIYASI
+- Vertikal fonlar uchun 1080 x 1920 px.
+- Stickerlar uchun shaffof PNG yoki WebP.
+- Fayl nomlarida lotin harflari, raqam va chiziqcha ishlating.
+
+ESLATMA
+Bu starter hali to‘liq video editor emas. Logo, theme assetlarini ilova ichida tanlash,
+preview qilish va montajga qo‘shish funksiyalari keyingi ishlab chiqish bosqichlarida ulanadi.

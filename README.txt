@@ -38,3 +38,24 @@ PACKAGE
 Application ID: com.zilfercut.app
 Version: 0.1.0 (starter)
 Minimum Android: 8.0 (API 26)
+
+GITHUB ACTIONS — APK BUILD
+==========================
+The project includes .github/workflows/android-build.yml.
+
+HOW TO BUILD YOUR APK ON GITHUB
+1. Create a new GitHub repository.
+2. Extract this ZIP and upload the CONTENTS of the project folder.
+   IMPORTANT: include the hidden .github folder.
+3. Commit the files to the main or master branch.
+4. Open the repository's Actions tab.
+5. Select "Build ZILFERCUT APK" and click "Run workflow" if needed.
+6. Wait for the build job to finish successfully.
+7. Open the completed run and download the "ZILFERCUT-debug-APK" artifact.
+8. Extract the downloaded artifact ZIP; it contains app-debug.apk.
+9. Transfer app-debug.apk to your Android phone and install it.
+
+BUILD NOTES
+- This workflow creates a DEBUG APK for testing, not a signed Play Store release.
+- A signed release build requires a private keystore and GitHub Actions secrets.
+- Never commit your keystore or signing passwords to a public repository.
